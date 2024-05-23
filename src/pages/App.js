@@ -1,9 +1,11 @@
+import Logo from '../assets/github.svg'
+import { Container } from './styles';
 
 function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+    <Container>
+        <img src={Logo} width='72px' height='72px' alt='Logo do GitHub'/>
+    </Container>
   );
 }
 
