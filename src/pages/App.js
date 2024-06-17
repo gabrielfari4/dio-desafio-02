@@ -12,7 +12,7 @@ function App() {
 
   const handleSearch = async () => {
     try {
-      const {data} = await api.get(`repos/${currentRepo}`)
+      const {data} = await api.get(`/repos/${currentRepo}`)
       console.log(data)
   
       if (data.id) {
@@ -39,7 +39,6 @@ function App() {
 
     setRepos(repos.filter(repo => repo.id !== id))
   }
-
 
   return (
     <Container>

@@ -4,7 +4,7 @@ export default createGlobalStyle`
 
     *, body {
         margin: 0;
-        paddin: 0;
+        padding: 0;
     }
 
     body {
